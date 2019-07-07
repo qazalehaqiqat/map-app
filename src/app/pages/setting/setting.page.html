@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title slot="end" style="color: white">تنظیمات</ion-title>
+    <ion-buttons>
+      <ion-back-button style="color: white"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <img class="user-avatar" [src]="croppedImagepath">
+    <ion-fab class="user-add-avatar" slot="fixed" (click)="addUserAvatar()">
+        <ion-fab-button class="user-add-avatar-fab">
+          <ion-icon name="camera"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    <span class="user-fullname">{{UserProvider.user.Name}} {{UserProvider.user.LastName}} </span>
+    <span class="user-level">{{UserProvider.user.Email}}</span>
+    <span class="user-level">{{UserProvider.user.PhoneNumber}}</span>
+    <span class="user-level">{{UserProvider.user.Level}} </span>
+</ion-content>
+
+<!-- src="../../../assets/avatar.svg" -->

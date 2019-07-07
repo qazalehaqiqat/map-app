@@ -1,0 +1,111 @@
+.gradiant {
+    margin-top: -39px;
+    background-image: linear-gradient(19deg, #577cd5, #66236e);
+    border-radius: 2000px/450px;
+  }
+
+  .dot {
+    height: 470px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .input-phone {
+    direction: rtl;
+    width: 318px;
+    height: 45px;
+    border-radius: 23px;
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    margin-top: 118px;
+    margin-left: calc(50% - 159px);
+    font-size: 17px;
+    color: #b5b5b5;
+    -webkit-appearance: none;
+  }
+  .input-lastphone{
+    direction: rtl;
+    width: 318px;
+    height: 45px;
+    border-radius: 23px;
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    margin-left: calc(50% - 159px);
+    font-size: 17px;
+    color: #b5b5b5;
+    -webkit-appearance: none;
+  }
+  .input-numphone{
+
+direction: rtl;
+    width: 318px;
+    height: 45px;
+    border-radius: 23px;
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    margin-left: calc(50% - 159px);
+    font-size: 17px;
+    color: #b5b5b5;
+    -webkit-appearance: none;
+  }
+ 
+  .input-pass {
+    direction: rtl;
+    width: 318px;
+    height: 45px;
+    border-radius: 23px;
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    margin-left: calc(50% - 159px);
+    font-size: 17px;
+    color: #b5b5b5;
+    -webkit-appearance: none;
+    
+  }
+  #input{
+      border: none;
+  }
+
+  #login-button {
+    width: 318px !important;
+    height: 53px !important;
+    border-radius: 27px !important;
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08) !important;
+    background-color: #ffffff !important;
+    border: solid 1px #5c5fb4 !important;
+    margin-top: 30px !important;
+    margin-left: calc(50% - 159px) !important;
+    font-size: 25px !important;
+    letter-spacing: normal !important;
+    color: #5c5fb4 !important;
+    -webkit-appearance: none !important;
+  }
+  .radius {
+    width: 100%;
+    height: 20px;
+  }
+
+  .loginPage-Buttons{
+      width: 315px;
+      height: 50px;
+      border-radius: 27px;
+      -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+      box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.08);
+      background-color: #ffffff;
+      border: solid 1px #5c5fb4;
+      margin-top: 27px;
+      margin-left: calc(50% - 159px);
+      font-size: 21px;
+      letter-spacing: normal;
+      color: #5c5fb4;
+      -webkit-appearance: none;
+  }
+
+  .forgot-password{
+    margin-top: 10px;
+    text-align: center;
+  }

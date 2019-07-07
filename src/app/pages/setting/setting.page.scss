@@ -1,0 +1,49 @@
+img.user-avatar {
+     width: 113.7px;
+     height: 113.7px;
+    // background-color: white;
+    // border-radius: 50%;
+    // padding: 25px;
+    // margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    //width: 50%;
+    margin-top: 25px;
+    border: 5px solid #66236e;
+    border-radius: 50%;
+}
+  span.user-fullname {
+    font-size: 23px;
+    letter-spacing: -0.4px;
+    color: #66236e;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+  }
+  span.user-level {
+    font-size: 15px;
+    letter-spacing: -0.4px;
+    color:  #66236e;
+    display: block;
+    text-align: center
+
+  }
+
+  .user-add-avatar{
+    margin: 100px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+  }
+
+  .user-add-avatar .user-add-avatar{
+    --background: #66236e !important
+  }
+
+  span.fullname{
+    text-align: right;
+    color:  black;
+
+  }

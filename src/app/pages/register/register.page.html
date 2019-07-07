@@ -1,0 +1,37 @@
+
+
+
+<ion-content>
+  <div class="gradiant">
+      <div class="dot">
+          <!-- <form #form="ngForm" (ngSubmit)="register(form)" method="post"> -->
+              <ion-item class="input-phone">
+                  <!-- <ion-label position="floating">شماره تلفن</ion-label> -->
+                  <ion-input [(ngModel)]="name" id="name" placeholder="نام"> <ion-icon name="contact"></ion-icon></ion-input>
+                </ion-item>
+                <ion-item class="input-lastphone">
+                    <!-- <ion-label position="floating">شماره تلفن</ion-label> -->
+                    <ion-input [(ngModel)]="lastName" id="lastName" placeholder="نام خانوادگی" > <ion-icon name="contact"></ion-icon></ion-input>
+                  </ion-item>
+                  <ion-item class="input-lastphone">
+                    <ion-input [(ngModel)]="Email" id="Email" placeholder="پست الکترونیکی" > <ion-icon name="mail"></ion-icon></ion-input>
+                  </ion-item>
+              <ion-item class="input-numphone">
+                <!-- <ion-label position="floating">شماره تلفن</ion-label> -->
+                <ion-input [(ngModel)]="phoneNumber" id="phoneNumber" placeholder="شماره تلفن"  padding> <ion-icon name="phone-portrait"></ion-icon></ion-input>
+              </ion-item>
+              <ion-item class="input-pass">
+                <!-- <ion-label position="floating">رمز عبور</ion-label> -->
+                <ion-input  [(ngModel)]="password" id="password" placeholder="رمز عبور" type="password"  padding><ion-icon name="key"></ion-icon></ion-input>
+              </ion-item>
+            <!-- </form> -->
+      </div>
+      <div class="radius">
+      </div>
+  </div>
+  <div >
+    <button class="loginPage-Buttons" (click)="register()">ثبت نام</button>
+  </div>
+  
+
+</ion-content>

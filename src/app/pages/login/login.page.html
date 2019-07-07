@@ -1,0 +1,64 @@
+<!-- <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        ورود با شماره موبایل
+      </ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+<!-- <ion-content padding>
+  <form #form="ngForm" (ngSubmit)="login(form)" method="post" autocomplete="off">
+    <ion-row>
+      <ion-col>
+        <ion-list inset>
+            <ion-item>
+                <ion-label position="floating" autofocus="true">PhoneNumber</ion-label>
+                <ion-input type="text" name="PhoneNumber" [(ngModel)]="PhoneNumber"></ion-input>
+              </ion-item>
+              <ion-item>
+                  <ion-label position="floating">Password</ion-label>
+                  <ion-input type="password" name="password" [(ngModel)]="password"></ion-input>
+                </ion-item>
+      
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div *ngIf="error" class="alert alert-danger">{{error}}</div>
+      
+        <br>
+        <ion-button expand="block" (click)="login()">Login</ion-button>
+    
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content> -->
+
+
+<ion-content>
+  <div class="gradiant">
+      <div class="dot">
+          <!-- <img class="bego-img" src="../../../assets/bego.png"> -->
+          <!-- <form #form="ngForm" (ngSubmit)="login(form)" method="post"> -->
+              <ion-item class="input-phone">
+                <!-- <ion-label position="floating">شماره تلفن</ion-label> -->
+                <ion-input [(ngModel)]="phoneNumber" id="input" placeholder="شماره تلفن"  padding> <ion-icon name="phone-portrait"></ion-icon></ion-input>
+              </ion-item>
+              <ion-item class="input-pass">
+                <!-- <ion-label position="floating">رمز عبور</ion-label> -->
+                <ion-input  [(ngModel)]="password" id="input" placeholder="رمز عبور" type="password"  padding><ion-icon name="key"></ion-icon></ion-input>
+              </ion-item>
+            <!-- </form> -->
+      </div>
+      <div class="radius">
+      </div>
+  </div>
+  <div >
+    <button class="loginPage-Buttons" (click)="login()">ورود</button>
+    <button class="loginPage-Buttons"(click)="register()">ثبت نام</button>
+  </div>
+  <div class="forgot-password">
+    <a style="text-align:center">آیا رمز عبور خود را فراموش کرده اید؟</a>
+  </div>
+
+</ion-content>

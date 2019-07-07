@@ -1,0 +1,46 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These 
+// styles are for the entire app and not just one component. Additionally, this 
+// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// and used throughout the application.
+
+ion-toolbar {
+    --background: #577cd5;
+    /* fallback for old browsers */
+    --background: -webkit-linear-gradient(to right, #577cd5, #66236e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    --background: linear-gradient(to right, #577cd5, #66236e);
+  }
+
+  @font-face {
+    font-family: "vazir";
+    src: url("../assets/fonts/Vazir-Light-FD.eot");
+    src: url("../assets/fonts/Vazir-Light-FD.eot?#iefix")
+        format("embedded-opentype"),
+      url("../assets/fonts/Vazir-Light-FD.woff") format("woff"),
+      url("../assets/fonts/Vazir-Light-FD.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+ul,
+li,
+table,
+tr,
+td,
+ion-title,
+ion-label,
+ion-item {
+  font-family: vazir;
+}
